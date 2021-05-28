@@ -11,7 +11,7 @@ while ( upNumber < 11 ) {
     upNumber++;
     kit = comparison.indexOf(upNumber)
     
-    while (kit !== -1) {
+    while (kit != -1) {
 
         simbol++;
         kit = comparison.indexOf(upNumber, kit+1);
@@ -26,3 +26,5 @@ while ( upNumber < 11 ) {
 }
 
 console.log(babel);
+
+// 숫자 3은 3번, 숫자 6은 4번, 숫자 7은 1번  이렇게 해서 -> [3,4,1] 출력
